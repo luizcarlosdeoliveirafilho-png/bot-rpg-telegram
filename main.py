@@ -2,9 +2,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import os
 
-TOKEN = os.getenv(8095198946:AAEIy8mWjWY3ptlf9Q2Nfn0eaSU9CZJG_7s)
+TOKEN = os.getenv(8095198946:AAEIy8mWjWY3ptlf9Q2Nfn0eaSU9CZJG_7s )
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def start( update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "🎮 Bem-vindo ao Lendas do Brasil RPG!\nUse /criar para começar."
     )
